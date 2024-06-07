@@ -1,0 +1,18 @@
+Pada tugas ini, saya akan menggunakan dua metode interpolasi polinomial, yaitu metode Lagrange dan metode Newton, untuk menentukan hubungan antara tegangan yang diberikan pada baja tahan karat dan waktu yang diperlukan hingga baja tersebut patah. Data yang kita miliki berasal dari pengukuran fisika dengan delapan nilai tegangan yang berbeda dan waktu patah yang dihasilkan.
+
+Tujuan:
+1. Implementasi Interpolasi Polinom:
+
+a. Menggunakan metode Lagrange untuk melakukan interpolasi data.
+b. Menggunakan metode Newton untuk melakukan interpolasi data.
+
+2. Pengujian dan Visualisasi:
+
+a. Menguji implementasi interpolasi menggunakan data yang diberikan.
+b. Memplot grafik hasil interpolasi untuk rentang tegangan 5 hingga 40 Kg/mm².
+c. Membandingkan hasil interpolasi dari kedua metode.
+
+Data yang diberikan terdiri dari:
+
+Tegangan, 𝑥 (Kg/mm²): 5, 10, 15, 20, 25, 30, 35, 40
+Waktu patah, 𝑦 (jam) : 40, 30, 25, 40, 18, 20, 22, 15
